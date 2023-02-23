@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LogoutComponent } from './Users/logout/logout.component';
+import { FooterComponent } from './Users/footer/footer.component';
 
 
 
@@ -11,6 +12,7 @@ import { LogoutComponent } from './Users/logout/logout.component';
   declarations: [
     AppComponent,
     LogoutComponent,
+    FooterComponent,
    
   ],
   imports: [

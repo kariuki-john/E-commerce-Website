@@ -8,8 +8,9 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     background-color:black;
-    /* padding: 5px; */
-    /* width: 100%; */
+    position: fixed;
+     width: 100%;
+   
  }
  header img{
     height: 100px;

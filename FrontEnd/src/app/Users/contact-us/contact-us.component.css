@@ -1,0 +1,87 @@
+.imagetop {
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(133, 133, 244, 0.5)
+      ),
+      url(../../../assets/img/breadcrumb-bg.jpg);
+      
+  }
+  .paragraph {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+  }
+  
+  .paragraph p {
+    margin-top: 15%;
+    margin-left: 42%;
+    font-weight: bold;
+    font-size: 20px;
+    color: coral;
+  }
+  .about h1 {
+    margin-top: 40px;
+    margin-left: 42%;
+    font-size: 50px;
+    color: white;
+  }
+  .contact_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+    margin-top: 80px;
+  }
+  .form h2{
+    font-size: 2pc;
+  }
+  .form p{
+    color:darkgray;
+  }
+  form input{
+   height: 50px;
+   width: 100%;
+   margin-top: 30px;
+   border-radius: 50px solid grey;
+   
+  }
+  form .column{
+    gap: 10px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  textarea{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 50px solid grey;
+  }
+  .btn{
+    background-color: coral;
+    border-radius: 50px;
+    height: 50px;
+    width: 15%;
+    border: none;
+  }
+  .detail-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(255, 247, 247);
+    width: 25vw;
+   height:55vh;
+  }
+  .con p{
+    color: gray;
+  }
+  .con{
+    margin-left: 60px;
+  }
+
+  

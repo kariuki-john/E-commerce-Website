@@ -1,0 +1,81 @@
+.imagetop {
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 1;
+  overflow: hidden;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(133, 133, 244, 0.5)
+    ),
+    url(../../../assets/img/breadcrumb-bg.jpg);
+}
+.paragraph {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.paragraph p {
+  margin-top: 15%;
+  margin-left: 42%;
+  font-weight: bold;
+  font-size: 20px;
+  color: coral;
+}
+.about h1 {
+  margin-top: 40px;
+  margin-left: 42%;
+  font-size: 50px;
+  color: white;
+}
+.frutika{
+  height: 100vh;
+  width: 100%;
+ 
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+.one .two{
+  display: flex;
+  flex-direction: row;
+  
+}
+.img img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border: dashed coral;
+}
+.images img{
+  height: 50vh;
+  width: 40vw;
+  margin-right:40px;
+}
+.best-price{
+  display: flex;
+  flex-direction: row;
+  
+}
+.words{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.words,.one,.two{
+  margin-top: 60px;
+  margin-left: 30px;
+  gap: 80px;
+}
+h1{
+  display: flex;
+  margin-left: 20%;
+  margin-top: 30px;
+}

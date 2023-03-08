@@ -1,0 +1,10 @@
+table{
+    padding-top: 8%;
+    justify-items: center;
+    width: 80%;
+    padding-left: 15px;
+}
+tr{
+    border: 2px solid coral;
+}
+

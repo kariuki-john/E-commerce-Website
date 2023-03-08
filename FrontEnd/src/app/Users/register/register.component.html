@@ -1,1 +1,20 @@
-<p>register works!</p>
+<div class="form">
+  <form>
+    <h1 style="margin-left: 30%">Register Here</h1>
+    <div class="row">
+      <input type="text" placeholder="Username" #username />
+      <input type="text" placeholder="First Name" #firstname />
+
+      <input type="text" placeholder="Second Name" #secondname />
+      <input type="email" placeholder="Email" #email />
+
+      <input type="password" placeholder="Password" #password />
+      <input type="text" placeholder="Address" #address />
+
+      <input type="text" placeholder="Country" #country />
+      <input type="number" placeholder="Phone Number" #phonenumber />
+
+      <button class="btn" (click)="addCustomers()">SUBMIT</button>
+    </div>
+  </form>
+</div>

@@ -1,26 +1,32 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LogoutComponent } from './Users/logout/logout.component';
-import { FooterComponent } from './Users/footer/footer.component';
+import { ProuctsService } from './service/proucts.service';
+import { ProductsComponent } from './Users/products/products.component'; 
+import { CustomerComponent } from './Users/customer/customer.component';
+import { UsersService } from './service/users.service';
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LogoutComponent,
-    FooterComponent,
+    ProductsComponent,
+    CustomerComponent 
    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CommonModule,
+    
     
   ],
-  providers: [],
+  providers: [ProuctsService,UsersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
